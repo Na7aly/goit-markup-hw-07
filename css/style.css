@@ -313,7 +313,8 @@ button:focus{
     margin:0 auto;
 }
 .portofolio-container{
-    width: 1200px;
+    display: flex;
+    flex-direction: column;
 }
 .portofolio-container ul{
     background-color: #FFFFFF;
@@ -1381,15 +1382,9 @@ box-shadow:none;
     .modal-form{
     width: auto;
     }
-    .portofolio-container ul {
-    background-color: #FFFFFF;
-    width: 1200px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 0px;
-   }       
+     
+.portofolio-container{
+    width:1200px ;
+    display:block ;
+}    
 }
