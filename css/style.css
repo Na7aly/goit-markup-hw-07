@@ -924,18 +924,6 @@ transition: background-color 250ms ease, box-shadow 250ms ease, cubic-bezier(0.4
 .modal-input, .modal-input + svg, .textarea-class {
     transition: border 250ms ease, fill 250ms ease, cubic-bezier(0.4, 0, 0.2, 1) ease;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /* mobil */
 
 .main-navigation{
@@ -1037,7 +1025,7 @@ transition: background-color 250ms ease, box-shadow 250ms ease, cubic-bezier(0.4
     right:23px;
     top:50;
     cursor:pointer;
-    transition: fill 250ms ease, cubic-bezier(0.4, 0, 0.2, 1) ease;
+   transition: fill 250ms ease, cubic-bezier(0.4, 0, 0.2, 1) ease;
 }
 
 .mobile-menu-icon:hover {
@@ -1152,6 +1140,9 @@ button.js-close-menu:hover{
     color:rgba(33, 150, 243, 1);
     transition: color 250ms ease,
     cubic-bezier(0.4, 0, 0.2, 1) ease;
+}
+.js-menu-container .menu-toggle:hover{
+box-shadow:none;
 }
 @media screen and (min-width: 480px) {
         .container {
@@ -1279,16 +1270,6 @@ button.js-close-menu:hover{
     margin-left: 485px;
     margin-bottom: 543px;
     }
-    .regular-customers {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left:15px;
-    padding-right:15px;
-    fill:rgba(175, 177, 184, 1);
-    width: 1200px;
-    padding-bottom: 94px;
-    }
     .section .team{
     padding-bottom: 94px;
     }
@@ -1298,9 +1279,6 @@ button.js-close-menu:hover{
     .heading-section {
     padding-bottom: 94px;
     padding-bottom:50px;
-    }
-    .regular-customers{
-    padding-bottom: 94px;
     }
     .solution h1{
     font-size: 44px;
@@ -1336,7 +1314,8 @@ button.js-close-menu:hover{
     padding-right: 15px;
     fill: rgba(175, 177, 184, 1);
     width: 1200px;
-    padding-bottom: 94px;}
+    padding-bottom: 94px;
+}
     .regular-customers-svgs{
     width: 170px;
     }
@@ -1391,7 +1370,7 @@ button.js-close-menu:hover{
     height: 581px;
     }
     .checkbox-label span{
-    width: 370px;
+    width: 393px;
     font-size: 14px;
     letter-spacing: 0.24px;
     gap: 14px;
