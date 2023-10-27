@@ -39,7 +39,7 @@ body h2{
     font-size: 16px;
     font-weight: 700;
     line-height: 187.5%;
-    padding: 0;
+    padding: 10px 20px 10px 20px;
 }
 .request:hover{
     background-color:#188CE8 ;
@@ -1061,8 +1061,8 @@ button.js-close-menu:hover{
     fill:rgba(33, 150, 243, 1);  
 }
 .close-menu-svg-mobile {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     right: 15px;
   transition: fill 250ms ease, cubic-bezier(0.4, 0, 0.2, 1) ease;
