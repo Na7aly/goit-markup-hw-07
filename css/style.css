@@ -39,6 +39,7 @@ body h2{
     font-size: 16px;
     font-weight: 700;
     line-height: 187.5%;
+    padding: 0;
 }
 .request:hover{
     background-color:#188CE8 ;
@@ -695,8 +696,7 @@ margin-top: -22px;
 }
 .close-modal-button {
     position:absolute;
-    margin-left:408px;
-    margin-bottom:543px;
+    left: 406px;
     width:30px;
     height:30px;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1048,7 +1048,7 @@ transition: background-color 250ms ease, box-shadow 250ms ease, cubic-bezier(0.4
 .js-close-menu {
     position: absolute;
     display:flex;
-    right:25px;
+    right:20px;
     top:21px;
     background-color: transparent;
     border:none;
@@ -1063,6 +1063,8 @@ button.js-close-menu:hover{
 .close-menu-svg-mobile {
     width: 20px;
     height: 20px;
+    position: absolute;
+    right: 15px;
   transition: fill 250ms ease, cubic-bezier(0.4, 0, 0.2, 1) ease;
 }
 .js-menu-container:not(.is-open) {
