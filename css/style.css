@@ -681,7 +681,7 @@ margin-top: -22px;
 .close-modal-svg {
     width:18px;
     height:18px; 
-    padding-right: 3px;   
+      
 }
 .close-modal-svg:hover{
     background-color: #FFF;
@@ -699,15 +699,13 @@ margin-top: -22px;
     top: -545px;
     left: 193px;
    /* left: 406px;*/
-    width:30px;
+    width:26px;
     height:30px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius:50%;
     background-color:transparent;
     cursor:pointer;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-right: 3px;
+    padding: 3px;
 }
 .is-hidden {
     visibility: hidden;
@@ -821,11 +819,12 @@ input:checked + svg {
  .checkbox-input:checked +svg {
     color: #2196f3;}
 .checkbox-label{
+    margin-top: 20px;
     display: flex;
     align-items: center;
-    position: relative;
+    justify-content: flex-start;
     gap: 8px;
-    margin-top: 20px;
+    padding-left: 10px;
 }
 .checkbox-label input{
     width: 16px;
