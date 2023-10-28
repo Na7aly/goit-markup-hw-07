@@ -678,10 +678,9 @@ margin-top: -22px;
     align-items: center;
     padding: 10px 40px 40px 40px; 
 }
-.close-modal-svg {
+ .close-modal-svg {
     width:18px;
-    height:18px; 
-      
+    height:18px;     
 }
 .close-modal-svg:hover{
     background-color: #FFF;
@@ -699,8 +698,8 @@ margin-top: -22px;
     top: -545px;
     left: 193px;
    /* left: 406px;*/
-    width:26px;
-    height:30px;
+    /*width:26px;
+    height:30px;*/
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius:50%;
     background-color:transparent;
