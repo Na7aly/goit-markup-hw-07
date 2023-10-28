@@ -707,6 +707,7 @@ margin-top: -22px;
     cursor:pointer;
     padding-top: 3px;
     padding-bottom: 3px;
+    padding-right: 3px;
 }
 .is-hidden {
     visibility: hidden;
@@ -824,7 +825,6 @@ input:checked + svg {
     align-items: center;
     position: relative;
     gap: 8px;
-    margin-left: 12px;
     margin-top: 20px;
 }
 .checkbox-label input{
@@ -1278,6 +1278,9 @@ box-shadow:none;
     width: 231px;
     height: 16px;
     margin-bottom: 12px;
+    }
+    .checkbox-label{
+        margin-left: 12px;
     }
     .solution{
     background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/backgraund-img.jpg);
