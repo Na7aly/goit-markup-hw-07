@@ -825,6 +825,7 @@ input:checked + svg {
     justify-content: flex-start;
     gap: 8px;
     padding-left: 10px;
+    position: relative;
 }
 .checkbox-label input{
     width: 16px;
@@ -840,6 +841,8 @@ input:checked + svg {
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 171.429% */ 
+    letter-spacing: 0.03em;
+    text-align: right;
 }
 .checkbox-label a{
     color: #2196F3;
@@ -1301,8 +1304,9 @@ box-shadow:none;
         padding-bottom: 30px;
     }
     .close-modal-button {
-    margin-left: 485px;
-    margin-bottom: 543px;
+   /* margin-left: 485px;
+    margin-bottom: 543px;*/
+    left: 235px;
     }
     .section .team{
     padding-bottom: 94px;
