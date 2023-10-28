@@ -824,7 +824,6 @@ input:checked + svg {
     align-items: center;
     justify-content: flex-start;
     gap: 8px;
-    padding-left: 10px;
     position: relative;
 }
 .checkbox-label input{
@@ -842,7 +841,7 @@ input:checked + svg {
     font-weight: 400;
     line-height: 24px; /* 171.429% */ 
     letter-spacing: 0.03em;
-    text-align: right;
+    
 }
 .checkbox-label a{
     color: #2196F3;
